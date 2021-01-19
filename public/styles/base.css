@@ -1,0 +1,56 @@
+  /* width: 1000px; */
+  width: 100%;
+  margin: auto;
+}
+
+main {
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 72px;
+  font-weight: 700;
+  color: rgba(21, 21, 21, 0.888);
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  padding:50px;
+  font-size: 24px;
+  background-color: grey;
+}
+
+select {
+  font-size: 26px;
+}
+
+footer {
+  font-size: 24px;
+}
+
+img {
+  cursor: pointer
+}
+
+#section-template {
+  display: hidden;
+  visibility: hidden;
+}
+
+button {
+  padding: 5px 10px;
+  margin: auto;
+  font-size: 24px;
+  display: inline-block;
+}
+
+input, label{
+  display: block;
+  font-size: 30px;
+}

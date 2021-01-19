@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <title>Best Books!</title>
+</head>
+
+<body id="books">
+  <nav>
+    <h1>Best Books!</h1>
+    <p id="burger">[]</p>
+  </nav>
+
+  <h2>Search Results</h2>
+
+  <div id="books-div" <% data.forEach(valule=> { %>
+    <section>
+      <img src="<%= value.thumbnail%>" alt="<%= value.title%>">
+      <h3>
+        <%= value.title%>
+      </h3>
+      <h4>
+        <%= value.author%>
+      </h4>
+      <p>
+        <%= value.description%>
+      </p>
+    </section>
+    <%})%>
+  <footer>
+    <a href="">Twitter</a>
+    <a href="">Facebook</a>
+    <a href="">Instagram</a>
+    <a href="">Other</a>
+  </footer>
+</body>
+</html>
